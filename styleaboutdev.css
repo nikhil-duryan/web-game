@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin:0%
+}
+.body{
+    background:url(aboutpic.jpeg);
+    min-height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+  
+}
+#aman{
+    right: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: cursive;
+    margin: 80px 80px;
+}
+
+#nikhil{
+    right: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: cursive;
+    margin: 80px 80px;
+}
+#amanpic{
+    height: 100px;
+    position: relative;
+    top: 160px;
+    left: 30px;
+}
+#nikhilpic{
+    height: 100px;
+    position: relative;
+    top: 160px;
+    left: 25px;
+
+}
+img , svg{
+    height: 150px;
+    width: 100px;
+    border-radius: 47%;
+}
+a {
+    color: rgb(47, 33, 240);
+    text-decoration: underline;
+}

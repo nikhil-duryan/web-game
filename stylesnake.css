@@ -1,0 +1,59 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+.body{
+    background: url(natural.jpeg);
+    min-height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#board{
+    background: url(kobara.jpeg);
+    width: 90vmin;
+    height: 92vmin;
+    background-size: 100% 100%;
+    border: 6px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+    
+}
+.head{
+    background: linear-gradient(blue,black);
+    border: 25vmn,solid, white;
+    box-shadow: 2px,tomato;
+    transform: scale(1.08);
+    border-radius: 18px;
+}
+.snake{
+    background: linear-gradient(blue,green);
+    border: 25vmn,solid, rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.food{
+    background:linear-gradient(yellow,green);
+    border-radius: 22px;
+    border-color: yellowgreen;
+    border: 25vmn,solid, rgb(255, 255, 255);
+}
+

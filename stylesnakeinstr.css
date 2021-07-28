@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    background:url(snakeinstrbg.jpeg);
+    min-height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    z-index: -60;
+}
+#board{
+    position: absolute;
+    left: 27%;
+    top: -3%;
+    width: 90vmin;
+    height: 92vmin;
+    background-size: 100% 100%;
+    
+}
+#instr{
+    position: absolute;
+    text-decoration: royalblue;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+    top: 2px;
+    right: 25%;
+    font-weight: bolder;
+}
+#content{
+    position: absolute;
+    font-size: 20px;
+    right:0px ;
+    font-style: inherit;
+    top: 18%;
+}
+#button img{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+  
+}

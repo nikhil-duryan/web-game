@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    background: url('tetris_bg.jpeg');
+    min-height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    /* z-index: -60; */
+}
+#tetris{
+    position: absolute;
+    left: 256px;
+    top: 40px;
+    width: 90vmin;
+    height: 92vmin;
+    background-size: 100% 100%;
+    border: solid 2px rgb(18, 18, 19);
+    background-color: rgb(65, 66, 66);
+    /* z-index: 12; */
+    border-radius: 4px;
+}
+
+#score {
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    height: 100px;
+    top: 20px;
+    left: 70%;
+    color: rgb(23, 214, 118);
+    z-index: 12;
+}
+
+.body h1{
+    position: absolute;
+    top: 0px;
+    left: 488px;
+    font-family: fantasy;
+    text-align: center;
+}

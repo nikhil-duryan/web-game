@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+  <title>webGames</title>
+</head>
+<body>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- navigationBar   -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">WebGames</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index1.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutdev.html">About-Developer</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Games
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="snankeinstr.html">Snake</a></li>
+              <li><a class="dropdown-item" href="tetrisinstr.html">Tetris</a></li>
+              <li><a class="dropdown-item" href="ballfinstr.html">Falling-Ball</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeAieJH2h07dEH1Lw9QgInvlB5EcNlzfXJeCDjdMXz-tjI0RQ/viewform?usp=sf_link">feedback</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Carsoule images-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="gamepic1.jpeg" class="d-block w-100" alt="..." width="100px" height="700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to our Gaming Website</h5>
+          <p>A champion is afraid of losing. Everyone else is afraid of winning.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="gamepic2.jpeg" class="d-block w-100" alt="..." width="100px" height="700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to our Gaming Website</h5>
+          <p>It’s not whether you win or lose, it’s how you play the game.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="gamepic3.jpeg" class="d-block w-100" alt="..." width="100px" height="700px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to our Gaming Website</h5>
+          <p>Winning isn’t everything, it’s the only thing.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--alert about game-->>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    This <strong>Gaming website</strong> provides you Three amazing Games!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <!--card snakeminiya-->>
+  <div class="card-group">
+    <div class="card" style="width: 18rem;">
+      <img src="kobara.jpeg" class="card-img-top" alt="..." width="100%" height="500px">
+      <div class="card-body">
+        <h5 class="card-title">Snakeminiya</h5>
+        <p class="card-text">For PLAYING this amazing game CLICK on play button.</p>
+        <a href="snankeinstr.html" class="btn btn-primary">Play</a>
+      </div>
+    </div>
+    <!--card tetris-->
+    <div class="card" style="width: 18rem;">
+      <img src="tetris.jpeg" class="card-img-top" alt="..." width="100%" height="500px">
+      <div class="card-body">
+        <h5 class="card-title">Tetris</h5>
+        <p class="card-text">For PLAYING this amazing game CLICK on play button.</p>
+        <a href="tetrisinstr.html" class="btn btn-primary">Play</a>
+      </div>
+    </div>
+    <!--card falling ball-->>
+    <div class="card" style="width: 18rem;">
+      <img src="ball.jpeg" class="card-img-top" alt="..." width="100%" height="500px">
+      <div class="card-body">
+        <h5 class="card-title">Falling-Ball</h5>
+        <p class="card-text">For PLAYING this amazing game CLICK on Play button.</p>
+        <a href="ballfinstr.html" class="btn btn-primary">Play</a>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    <h1>About Snakeminiya</h1><br>
+    <p>The player controls a dot, square, or object on a bordered plane. As it moves forward, it leaves a trail behind,
+      resembling a moving snake. In some games, the end of the trail is in a fixed position, so the snake continually
+      gets longer as it moves. In another common scheme, the snake has a specific length, so there is a moving tail a
+      fixed number of units away from the head. The player loses when the snake runs into the screen border, a trail,
+      other obstacle, or itself.
+
+      The Snake concept comes in two major variants:
+
+      In the first, which is most often a two-player game, there are multiple snakes on the playfield. Each player
+      attempts to block the other so the opponent runs into an existing trail and loses. Surround for the Atari VCS is
+      an example of this type. The Light Cycles segment of the Tron arcade game is a single-player version where the
+      other "snakes" are AI controlled.
+      In the second variant, a sole player attempts to eat items by running into them with the head of the snake. Each
+      item eaten makes the snake longer, so avoiding collision with the snake becomes progressively more difficult.
+      Examples: Nibbler, Snake Byte.</p>
+    <br>
+    <h2>History of Snakeminiya</h2><br>
+    <p>The Snake design dates back to the arcade game Blockade, developed and published by Gremlin in 1976.It
+      was cloned as Bigfoot Bonkers the same year. In 1977, Atari released two Blockade-inspired titles: the arcade game
+      Dominos and Atari VCS game Surround. Surround was one of the nine Atari VCS launch titles in the US. It was
+      sold by Sears under the name Chase. That same year, a similar game was launched for the Bally Astrocade as
+      Checkmate.
+
+      The first known home computer version, titled Worm, was programmed in 1978 by Peter Trefonas of the US on the
+      TRS-80, and published by CLOAD magazine in the same year. This was followed shortly afterwards with versions
+      from the same author for the Commodore PET and Apple II. A clone of the Hustle arcade game, itself a clone of
+      Blockade, was written by Peter Trefonas in 1979 and published by CLOAD. An authorized version of Hustle was
+      published by Milton Bradley for the TI-99/4A in 1980. In 1982's Snake for the BBC Micro, by Dave Bresnen, the
+      snake is controlled using the left and right arrow keys relative to the direction it is heading in. The snake
+      increases in speed as it gets longer, and there's only one life.
+
+      Nibbler (1982) is a single-player arcade game where the snake fits tightly into a maze, and the gameplay is faster
+      than most snake designs. Another single-player version is part of the 1982 Tron arcade game, themed with light
+      cycles. It reinvigorated the snake concept, and many subsequent games borrowed the light cycle theme.
+
+      Starting in 1991, Nibbles was included with MS-DOS for a period of time as a QBasic sample program. In 1992,
+      Rattler Race was released as part of the second Microsoft Entertainment Pack. It adds enemy snakes to the familiar
+      apple-eating gameplay.</p>
+    <br><br>
+    <h1>About Tetris</h1><br>
+    <p>Tetris is primarily composed of a field of play in which pieces of different geometric forms, called
+      "tetriminos", descend from the top of the field. During this descent, the player can move the pieces laterally
+      and rotate them until they touch the bottom of the field or land on a piece that had been placed before it. The
+      player can neither slow down the falling pieces nor stop them, but can accelerate them in most versions. The
+      objective of the game is to use the pieces to create as many horizontal lines of blocks as possible. When a line
+      is completed, it disappears, and the blocks placed above fall one rank. Completing lines grants points, and
+      accumulating a certain number of points moves the player up a level, which increases the number of points granted
+      per completed line.
+
+      In most versions, the speed of the falling pieces increases with each level, leaving the player with less time to
+      think about the placement. The player can clear multiple lines at once, which can earn bonus points in some
+      versions. It is possible to complete up to four lines simultaneously with the use of the I-shaped tetrimino;
+      this move is called a "Tetris", and is the basis of the game's title. If the player cannot make the blocks
+      disappear quickly enough, the field will start to fill, and when the pieces reach the top of the field and prevent
+      the arrival of additional pieces, the game ends. At the end of each game, the player receives a score based on
+      the number of lines that have been completed. The game never ends with the player's victory; the player can
+      only complete as many lines as possible before an inevitable loss.
+
+      Since 1996, The Tetris Company has internally defined specifications and guidelines that publishers must adhere to
+      in order to be granted a license to Tetris. The contents of these guidelines establish such elements as the
+      correspondence of buttons and actions, the size of the field of play, the system of rotation, and others.
+    </p>
+    <br>
+    <h2>History of Tetris</h2><br>
+    <p>In 1979, Alexey Pajitnov joined the Computer Center of the Soviet Academy of Sciences as a speech recognition
+      researcher. While he was tasked with testing the capabilities of new hardware, his ambition was to use computers
+      to make people happy. Pajitnov developed several puzzle games on the institute's computer, an Electronika 60,
+      a scarce resource at the time. For Pajitnov, "games allow people to get to know each other better and act as
+      revealers of things you might not normally notice, such as their way of thinking".
+
+      In 1984, while trying to recreate a favorite puzzle game from his childhood featuring pentominoes,
+      Pajitnov imagined a game consisting of a descent of random pieces that the player would turn to fill rows.
+      Pajitnov felt that the game would be needlessly complicated with twelve different shape variations, so he scaled
+      the concept down to tetrominoes, of which there are seven variants. Pajitnov titled the game Tetris, a word
+      created from a combination of "tetra" (meaning "four") and his favorite sport, "tennis". Because the
+      Electronika 60 had no graphical interface, Pajitnov modelled the field and pieces using spaces and brackets.
+      Realizing that completed lines filled the screen quickly, Pajitnov decided to delete them, creating a key part of
+      Tetris gameplay. This early version of Tetris had no scoring system and no levels, but its addictive quality
+      distinguished it from the other puzzle games Pajitnov had created.</p>
+    <br><br>
+    <h1>About Falling-Ball</h1><br>
+    <p>Falling Ball is a free android game in which you make a ball fall down through a series of holes by tilting your
+      mobile device. As time goes by, the game will speed up making it more difficult to drop the ball through the
+      holes. Also the moving platforms will make it harder to fall down.</p>
+    <br>
+    <h2>History of falling-ball</h2><br>
+    <p>The history of video games spans a period of time between the invention of the first electronic games and today,
+      covering many inventions and developments. Video gaming reached mainstream popularity in the 1970s and 1980s, when
+      arcade video games, gaming consoles and home computer games were introduced to the general public. Since then,
+      video gaming has become a popular form of entertainment and a part of modern culture in most parts of the world.
+      The early history of video games, therefore, covers the period of time between the first interactive electronic
+      game with an electronic display in 1947, the first true video games in the early 1950s, and the rise of early
+      arcade video games in the 1970s (Pong and the beginning of the first generation of video game consoles with the
+      Magnavox Odyssey, both in 1972). During this time there was a wide range of devices and inventions corresponding
+      with large advances in computing technology, and the actual first video game is dependent on the definition of
+      "video game" used.</p>
+  </div>
+  <!--footer-->>
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="content">
+          <p>We both are the students at National Institute of technology,Patna(2019-2023) who utilise their skills(jul-2021) to make this project so that anyone who wants to play free games can play.In this process we had also learn many things.</p>
+        </div>
+      </div>
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">NIT PATNA, Bihar 800005</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+91 8905886167,+917895502670</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text"><a href="nikhlik.ug19.ec@nitp.ac.in">mailtoNikhilKumar</a></span><br>
+            <span class="text"><a href="amankumardipti123@gamil.com">mailtoAmanKumarDipti</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <center>
+        <span class="credit">Created By <a href="https://www.codingnepalweb.com">Nikhil &  Aman</a> | </span>
+        <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+</body>
+
+</html>
